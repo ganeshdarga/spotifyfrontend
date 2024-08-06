@@ -28,7 +28,7 @@ const Display = () => {
   return (
     <div ref={displayRef} className='w-[100%] m-2 px-6 py-3 rounded bg-[#121212] text-white overflow-auto lg:w-[75%] lg:ml-0'>
         <Routes>
-            <Route path='/' element={<DisplayHome></DisplayHome>}></Route>
+            <Route path='/spotifyfrontend' element={<DisplayHome></DisplayHome>}></Route>
             <Route path='/album/:id' element={<DisplayAlbum album={albumsData.find((x)=>(x.id == albumId))}></DisplayAlbum>}></Route>
         </Routes>
     </div>
