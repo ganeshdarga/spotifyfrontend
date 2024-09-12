@@ -33,7 +33,7 @@ const PlayerContextProvider = (props) => {
 
     const getSongsData = async () => {
         try {
-            const response = await axios.get("https://spotiback.onrender.com/api/songs/");
+            const response = await axios.get("https://spotiback-bj4x.onrender.com/api/songs/");
             setsongsData(response.data);
             setTrack(response.data[0]);
         } catch (error) {
@@ -43,7 +43,7 @@ const PlayerContextProvider = (props) => {
 
     const getAlbumsData = async () => {
         try {
-            const response = await axios.get("https://spotiback.onrender.com/api/albums/");
+            const response = await axios.get("https://spotiback-bj4x.onrender.com/api/albums/");
             setalbumsData(response.data);
         } catch (error) {
             console.log("Error fetching albums data:", error);
