@@ -1,5 +1,4 @@
 demoLink: https://ganeshdarga.github.io/spotifyfrontend/
-
 admin details.
 username: admin.
 password: admin123.
@@ -79,5 +78,8 @@ Run the React development server using npm:
 npm start
 The React frontend will start running, and you can view the project in your browser at:
 http://localhost:3000
+
+
+
 
 
